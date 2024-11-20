@@ -1,0 +1,73 @@
+/* Container for the form */
+.form-container {
+    max-width:600px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #871010;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(125,14,14,1) 64%);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h1 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each label and input field */
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f5ecec;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Add styling to the textarea */
+  .form-container textarea {
+    resize: vertical;
+    min-height: 80px;
+  } 
+  
+  /* Submit button styling */
+  .form-container button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff;
+    color: rgb(8, 7, 7);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the line breaks */
+  .form-container .field-spacing {
+    margin-bottom: 10px;
+  }
